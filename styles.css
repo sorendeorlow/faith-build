@@ -353,6 +353,17 @@ p { margin: 0 0 1.1rem; }
 }
 .idea__body p { color: var(--ink-soft); font-size: 1.1rem; }
 .idea__body strong { color: var(--ink); }
+.idea__tagline {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  line-height: 1.2;
+  color: var(--ink);
+  font-weight: 500;
+  margin-top: 1.8rem;
+  padding-top: 1.6rem;
+  border-top: 2px solid var(--ember);
+}
+.idea__tagline { font-style: italic; }
 @media (max-width: 820px) { .idea__grid { grid-template-columns: 1fr; } }
 
 /* ---------- The Table (dark section) ---------- */
